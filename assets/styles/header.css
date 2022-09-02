@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    background-color: var(--white);
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+.logo__automation-solutions {
+    width: 5.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header__options {
+    color: var(--autsol);
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: .8rem .8rem 2rem .8rem;
+    text-transform: uppercase;
+    transition: all 0.6s;
+}
+
+.header__options:hover{
+    background-color: var(--autsol);
+    color: var(--white);
+}
+
+.search-icon {
+    padding-left: 1rem;
+    width: 2rem;
+}

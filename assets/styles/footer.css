@@ -1,0 +1,57 @@
+.footer {
+    display: flex;
+    background-color: var(--autsol);
+    color: var(--white);
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.footer__submenu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__submenu-opcao {
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+li{
+    padding-bottom: .5rem;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 8rem 0 0;
+    width: 10rem;
+}
+
+.informacoes__map {
+    margin-top: 1.5rem;
+    width: 3rem;
+}
+
+.footer__logo-autsol {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.footer__logo {
+    position: center;
+    padding: 1rem;
+    width: 4.5rem;
+}
+
+.footer__autsol {
+    color: var(--autsol);
+    font-size: 14px;
+    font-weight: 500;
+}

@@ -1,0 +1,120 @@
+:root {
+    --white: #FFFFFF;
+    --autsol: #253876;
+    --red_autsol: #ED1C24;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100vw;
+}
+
+.container {
+    padding: 2rem;
+
+}
+
+.segmentos {
+    background-color: var(--autsol);
+    color: var(--white);
+    font-weight: 400;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+.principais-segmentos {
+    display: flex;
+    flex-direction: column;
+    margin: 0 8rem;
+}
+
+.principais-segmentos__detalhes {
+    display: flex;
+
+}
+
+.principais-segmentos__img {
+    height: 2.5rem;
+}
+
+.principais-segmentos__sistemas {
+    padding: 1rem;
+}
+
+.equipamentos {
+    background-color: var(--white);
+
+    width: 100%;
+}
+
+.segmentos__produtos {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8rem;
+}
+
+.segmentos__produtos-equipamentos {
+    background-color: var(--autsol);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.segmentos__produtos-img {
+    height: 8rem;
+    padding-bottom: 1rem;
+}
+
+.segmentos__produtos-descricao {
+    color: var(--white);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 0 0 1rem 0;
+}
+
+.clientes {
+    background-color: var(--autsol);
+}
+
+.clientes__banner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.clientes__titulo {
+    color: var(--white);
+}
+
+.clientes__logo {
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+    padding: 1rem;
+}
+
+.parceiros__banner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.parceiros__titulo {
+    color: var(--autsol);
+}
+
+.parceiros__logo {
+    display: flex;
+    padding: 1rem;
+}
